@@ -635,7 +635,7 @@ input{
 
 /*===== Work Section =====*/
 .work__container {
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(2, 430px);
     margin-left: 10%;
     gap: 5rem;
     justify-content: center;
@@ -669,7 +669,7 @@ input{
 
 .work__img {
     border-radius: .5rem;
-    width: 17vw;
+    width: 23vw;
     height: auto;
     margin-bottom: var(--mb-1);
 }
