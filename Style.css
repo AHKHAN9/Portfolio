@@ -550,8 +550,8 @@ input{
 
 /*===== Skills Section =====*/
 .skills__container {
-    grid-template-columns: 360px 320px;
-    margin-left: 12%;
+    grid-template-columns: 360px 250px;
+    margin-left: 10%;
     column-gap: 3rem;
     justify-content: center;
 
@@ -930,6 +930,7 @@ input{
 .contact__container {
     grid-template-columns: 300px 340px;
     column-gap: 3rem;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
 }
@@ -1182,6 +1183,49 @@ textarea.input {
 }
 
 @media screen and (max-width: 1024px) {
+
+    .home {
+        background-image: none;
+        height: initial;
+        align-items: initial;
+        padding: 7rem 0 2rem;
+    }
+
+    .home__container {
+        row-gap: 2rem;
+    }
+
+    .home__img {
+        display: block;
+        width: 250px;
+        justify-self: center;
+    }
+
+    .home__social {
+        left: initial;
+        right: -1rem;
+        flex-direction: column;
+        row-gap: 3.5rem;
+    }
+
+    .home__social-follow {
+        font-size: var(--smaller-font-size);
+        transform: rotate(90deg);
+    }
+
+    .home__social-links {
+        flex-direction:  column;
+        row-gap: .25rem;
+    }
+
+    .home__social-link {
+        font-size: var(--normal-font-size);
+    }
+
+
+
+
+
     .container{
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
@@ -1312,7 +1356,49 @@ textarea.input {
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
 
-    
+    .home {
+        background-image: none;
+        height: initial;
+        align-items: initial;
+        padding: 7rem 0 2rem;
+    }
+
+    .home__container {
+        row-gap: 2rem;
+    }
+
+    .home__img {
+        display: block;
+        width: 250px;
+        justify-self: center;
+    }
+
+    .home__social {
+        left: initial;
+        right: -1rem;
+        flex-direction: column;
+        row-gap: 3.5rem;
+    }
+
+    .home__social-follow {
+        font-size: var(--smaller-font-size);
+        transform: rotate(90deg);
+    }
+
+    .home__social-links {
+        flex-direction:  column;
+        row-gap: .25rem;
+    }
+
+    .home__social-link {
+        font-size: var(--normal-font-size);
+    }
+
+    .my__info {
+        display: none;
+    }
+
+
     .about__image{
         width: 250px;
     }
